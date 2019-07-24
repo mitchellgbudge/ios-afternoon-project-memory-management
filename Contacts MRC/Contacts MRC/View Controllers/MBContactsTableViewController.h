@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBContactController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MBContactsTableViewController : UITableViewController
+
+@property (nonatomic, copy) MBContactController *contactsController;
 
 @end
 

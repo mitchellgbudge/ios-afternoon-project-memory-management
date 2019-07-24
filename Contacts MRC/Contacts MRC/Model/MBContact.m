@@ -10,4 +10,13 @@
 
 @implementation MBContact
 
+- (instancetype)initWithName:(NSString *)name email:(NSString *)email phone:(NSString *)phone {
+    if (self) {
+        _name = name;
+        _email = email;
+        _phone = phone;
+    }
+    return self;
+}
+
 @end
