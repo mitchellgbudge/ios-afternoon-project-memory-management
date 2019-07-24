@@ -14,6 +14,7 @@
 		3D31DC4122E8EEDB00BEB914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31DC4022E8EEDB00BEB914 /* main.m */; };
 		3D31DC4B22E90A3100BEB914 /* MBContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31DC4A22E90A3100BEB914 /* MBContactsTableViewController.m */; };
 		3D31DC4E22E90A4000BEB914 /* MBContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31DC4D22E90A4000BEB914 /* MBContactDetailViewController.m */; };
+		3D31DC5222E90D2400BEB914 /* MBContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31DC5122E90D2400BEB914 /* MBContactController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3D31DC4A22E90A3100BEB914 /* MBContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBContactsTableViewController.m; sourceTree = "<group>"; };
 		3D31DC4C22E90A4000BEB914 /* MBContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBContactDetailViewController.h; sourceTree = "<group>"; };
 		3D31DC4D22E90A4000BEB914 /* MBContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBContactDetailViewController.m; sourceTree = "<group>"; };
+		3D31DC5022E90D2400BEB914 /* MBContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBContactController.h; sourceTree = "<group>"; };
+		3D31DC5122E90D2400BEB914 /* MBContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBContactController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		3D31DC3022E8EED900BEB914 /* Contacts MRC */ = {
 			isa = PBXGroup;
 			children = (
+				3D31DC5322E90D2900BEB914 /* Model Controller */,
 				3D31DC4F22E90A4600BEB914 /* View Controllers */,
 				3D31DC4722E909F600BEB914 /* Storyboards */,
 				3D31DC4822E90A0E00BEB914 /* Resources */,
@@ -98,6 +102,15 @@
 				3D31DC4D22E90A4000BEB914 /* MBContactDetailViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3D31DC5322E90D2900BEB914 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D31DC5022E90D2400BEB914 /* MBContactController.h */,
+				3D31DC5122E90D2400BEB914 /* MBContactController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D31DC4122E8EEDB00BEB914 /* main.m in Sources */,
+				3D31DC5222E90D2400BEB914 /* MBContactController.m in Sources */,
 				3D31DC4B22E90A3100BEB914 /* MBContactsTableViewController.m in Sources */,
 				3D31DC3322E8EED900BEB914 /* AppDelegate.m in Sources */,
 				3D31DC4E22E90A4000BEB914 /* MBContactDetailViewController.m in Sources */,
